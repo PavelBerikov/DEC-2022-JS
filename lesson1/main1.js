@@ -29,5 +29,5 @@ console.log(fml);
 }
 let name = prompt('name');
 let pname = prompt('middleName');
-let age = prompt('age');
+let age = +prompt('age');
 console.log(name, pname, age);
