@@ -196,9 +196,9 @@ if (x !== 0) {
     let x5 = x[4].monthDuration
     let x6 = x[5].monthDuration
     if (x1 < 6) {console.log(x1)}else {console.log('super')}
-    if (x2 < 6) {console.log(x1)}else {console.log('super')}
-    if (x3 < 6) {console.log(x1)}else {console.log('super')}
-    if (x4 < 6) {console.log(x1)}else {console.log('super')}
-    if (x5 < 6) {console.log(x1)}else {console.log('super')}
-    if (x6 < 6) {console.log(x1)}else {console.log('super')}
+    if (x2 < 6) {console.log(x2)}else {console.log('super')}
+    if (x3 < 6) {console.log(x3)}else {console.log('super')}
+    if (x4 < 6) {console.log(x4)}else {console.log('super')}
+    if (x5 < 6) {console.log(x5)}else {console.log('super')}
+    if (x6 < 6) {console.log(x6)}else {console.log('super')}
 }
