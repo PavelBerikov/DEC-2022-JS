@@ -112,5 +112,51 @@ console.log(ac(P, 5))
 /*
 - створити функцію яка повертає найменьше число з масиву*/
 {
-
+    let min = function (numbers) {
+        a = numbers[0];
+        for (let number of numbers) {
+            if (a > number) {
+                a = number
+            }
+        }
+        return a
+    }
+    console.log(min([35, 11, 25,6, 1]))
+}
+/*
+- створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13*/
+{
+    function sum(numArr) {
+        let a = 0;
+        for (let num of numArr) {
+            a = a + num;
+        }
+        return a
+    }
+    console.log(sum([1, 2, 3, 10, 20]))
+}
+/*
+- створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
+Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]*/
+{
+    function swop(arr, id1, id2) {
+        let a = arr[id1];
+        let b = arr[id2];
+        arr[id1] = b;
+        arr[id2] = a;
+        return arr
+    }
+    console.log(swop([11,43,65,77],3, 2))
+}
+/*
+- Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)*/
+{
+    function ex(ua, cur, excur) {
+        for (let item of cur) {
+            if (item.currency === excur) {
+                return ua / item.value;
+            }
+        }
+    }
+    console.log(ex(10000,[{currency:'USD',value:40}, {currency:'EUR',value:42}], 'USD') )
 }
