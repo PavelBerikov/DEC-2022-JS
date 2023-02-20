@@ -148,10 +148,7 @@
     console.log(cards.filter(value => value.color === 'red' ))
     console.log( cards.filter(value => value.cardSuit === 'diamond' ))
     console.log(cards.filter(card => card.cardSuit === 'clubs' && (card.value >= 9 || Number.isNaN(+card.value) )))
-
-
-}
-/*Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
+    /*Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
 {
     spades:[],
         diamonds:[],
@@ -159,4 +156,10 @@
     clubs:[]
 }
 =========================*/
+    console.log(cards.reduce((acc, value) => {
+        acc[value.cardSuit].push(value)
+        return acc
+    }, {spade: [], clubs: [], diamond: [], heart: [],}))
 
+
+}
