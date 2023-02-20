@@ -36,20 +36,14 @@
 }
 /*- Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.*/
 {
-    let stringToarray = (txt) => {
-        console.log(txt.split(' '))
-    }
-
+    let stringToarray = (txt) => {console.log(txt.split(' '))}
     stringToarray('Ревуть воли як ясла повні')
 }
 /*
 - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map  перетворити всі об'єкти в масиві на стрінгові.*/
 {
-    let dsa = [10, 8, -7, 55, 987, -1011, 0, 1050, 0]
-    let map = dsa.map((value) => {
-        return value + '';
-
-    });
+    let dsa = [10, 8, -7, 55, 987, -1011, 0, 1050, 0];
+    let map = dsa.map((value) => {return value + ''});
     console.log(map)
 }
 /*
@@ -81,25 +75,20 @@
         {title: 'FullStack', monthDuration: 7},
         {title: 'Frontend', monthDuration: 4}
     ];
-}
-{
     let sortMonth = coursesAndDurationArray.sort((a, b) => {
         return b.monthDuration - a.monthDuration
     })
     console.log(sortMonth)
-    let bas = [];
-    for (let item of coursesAndDurationArray) {
-        if (item.monthDuration > 5) {
-            bas.push(item)
-        }
-
-    }
-    console.log(bas)
+    console.log(coursesAndDurationArray.filter((value, index) => value.monthDuration > 5))
     let coursesAndDurationArrayMAP = coursesAndDurationArray.map(function (value, index) {
         return {id: index + 1, ...value};
     });
     console.log(coursesAndDurationArrayMAP)
+
+
 }
+
+
 /*
 описати колоду карт (від 6 до туза без джокерів)
 - знайти піковий туз
@@ -153,20 +142,21 @@
         {cardSuit: 'heart', value: 'king', color: 'red'},
         {cardSuit: 'heart', value: 'ace', color: 'red'},
     ]
-    let filter = (arr, sp, vl) => {
-        let bas = []
-        for (let card of arr) {
-            if (card.cardSuit === sp && card.value === vl ){
-                console.log(bas.push(card.cardSuit, card.value, card.color))
-            }
-        }return bas
-    }
-    console.log(filter(cards, 'spade', 'ace'))
+
     console.log( cards.filter(value => value.cardSuit === 'spade' && value.value === 'ace' ))
     console.log(cards.filter(value => value.value === '6'))
     console.log(cards.filter(value => value.color === 'red' ))
     console.log( cards.filter(value => value.cardSuit === 'diamond' ))
+    console.log(cards.filter(card => card.cardSuit === 'clubs' && (card.value >= 9 || Number.isNaN(+card.value) )))
 
 
 }
+/*Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
+{
+    spades:[],
+        diamonds:[],
+    hearts:[],
+    clubs:[]
+}
+=========================*/
 
