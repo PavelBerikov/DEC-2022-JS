@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <script src="main10.js"></script>
+</head>
+<body>
+<form action="/someURL" name="fo1">
+
+    <input
+        type="text"
+        value=""
+        placeholder="enter name"
+        name="username"
+    >  звичайний текстовий інпут
+
+    <br>
+
+    <input type="password" name="password" placeholder="enter password" minlength="3"> для паролей
+
+    <br>
+
+    <input type="number" name="age" placeholder="enter age" min="18" max="99"> числовий інпут з лічильником
+    <br>
+
+    <!--<input type="file" name="avatar">-->
+
+    <input type="email" name="email" placeholder="enter email"> для імейлів одразу є відповідний валідатор
+
+    <br>
+
+    <input type="date" name="date" placeholder=""> вибір дати
+
+    <br>
+
+    <label>
+        my checkbox
+    <input type="checkbox" name="status" placeholder=""> чекбокс
+    </label>
+
+    <br>
+
+    <div>
+        Enter your gender
+        <label>Male<input type="radio" name="gender" value="male"></label>
+        <label>Female<input type="radio" name="gender" value="female"></label>
+    </div>вибір з декількох варіантів
+
+    <br>
+
+   <select name="skills" multiple>
+       <option value="js">JavaScript</option>
+       <option value="html">hyper text markup language</option>
+       <option value="java">Java 8</option>
+
+   </select>теж вибір але зі списком, за допомогою мультіпул можливий вибір дкількох
+
+    <br>
+
+    <input type="submit">
+
+
+</form>
+
+<script>
+
+    console.log(document.forms);
+    console.log(document.forms[0]);
+    console.log(document.forms[0].username);
+    console.log(document.forms[0].username.value)
+
+</script>
+
+</body>
+</html>

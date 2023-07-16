@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b98ab0-4bbc-4b09-a57d-f959a82763e7" name="Changes" comment="DZ">
-      <change afterPath="$PROJECT_DIR$/lesson4/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/maintest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/ls.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/main10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Relearn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Relearn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Shablon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson2/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/main2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/lesson4(homework).html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/lesson4(homework).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/main4.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/main4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/main9.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/main9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TEST.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/maintest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test1.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
+        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,9 +51,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JSExplicifyFields.moveToInitializer&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;LET&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/DEC-2022-JS&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -54,6 +63,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -85,7 +95,71 @@
       <workItem from="1676238094467" duration="4269000" />
       <workItem from="1676271786865" duration="11727000" />
       <workItem from="1676302088768" duration="9992000" />
-      <workItem from="1676375373025" duration="3824000" />
+      <workItem from="1676375373025" duration="4435000" />
+      <workItem from="1676391817936" duration="3981000" />
+      <workItem from="1676463919110" duration="4809000" />
+      <workItem from="1676477882005" duration="11914000" />
+      <workItem from="1676558762962" duration="8940000" />
+      <workItem from="1676721847130" duration="6639000" />
+      <workItem from="1676746501811" duration="834000" />
+      <workItem from="1676796655582" duration="29387000" />
+      <workItem from="1676840751422" duration="1041000" />
+      <workItem from="1676875313851" duration="5857000" />
+      <workItem from="1676885517763" duration="174000" />
+      <workItem from="1676894663480" duration="8806000" />
+      <workItem from="1676911664714" duration="4609000" />
+      <workItem from="1676916751122" duration="690000" />
+      <workItem from="1676918934395" duration="264000" />
+      <workItem from="1676994237004" duration="2781000" />
+      <workItem from="1677167515505" duration="4191000" />
+      <workItem from="1677331656071" duration="370000" />
+      <workItem from="1677333090758" duration="3125000" />
+      <workItem from="1677336579047" duration="1951000" />
+      <workItem from="1677345539481" duration="718000" />
+      <workItem from="1677415629287" duration="6964000" />
+      <workItem from="1677428533553" duration="4443000" />
+      <workItem from="1677491738934" duration="18451000" />
+      <workItem from="1677575502253" duration="3264000" />
+      <workItem from="1677773088605" duration="42000" />
+      <workItem from="1677773271341" duration="111000" />
+      <workItem from="1677774541306" duration="5807000" />
+      <workItem from="1677846359717" duration="14411000" />
+      <workItem from="1678009614095" duration="10463000" />
+      <workItem from="1678956378857" duration="1378000" />
+      <workItem from="1678959973481" duration="2924000" />
+      <workItem from="1679040921778" duration="4292000" />
+      <workItem from="1679130069558" duration="2409000" />
+      <workItem from="1679232812253" duration="9375000" />
+      <workItem from="1679410297779" duration="35000" />
+      <workItem from="1679587091535" duration="6493000" />
+      <workItem from="1679742620798" duration="840000" />
+      <workItem from="1679905282618" duration="543000" />
+      <workItem from="1680352125777" duration="3414000" />
+      <workItem from="1680435568233" duration="150000" />
+      <workItem from="1681035857060" duration="4642000" />
+      <workItem from="1681049942325" duration="7000" />
+      <workItem from="1681050195412" duration="8942000" />
+      <workItem from="1681295552794" duration="29000" />
+      <workItem from="1682532872153" duration="565000" />
+      <workItem from="1683140562572" duration="3611000" />
+      <workItem from="1683177603923" duration="7871000" />
+      <workItem from="1683225909320" duration="3940000" />
+      <workItem from="1683269951138" duration="4245000" />
+      <workItem from="1688047793960" duration="12212000" />
+      <workItem from="1688142122388" duration="3887000" />
+      <workItem from="1688227547264" duration="3299000" />
+      <workItem from="1688279099673" duration="16345000" />
+      <workItem from="1688318441804" duration="4896000" />
+      <workItem from="1688399288591" duration="4033000" />
+      <workItem from="1688537682611" duration="3258000" />
+      <workItem from="1688569073449" duration="7199000" />
+      <workItem from="1688662137095" duration="7483000" />
+      <workItem from="1688709523011" duration="5813000" />
+      <workItem from="1688717246496" duration="3505000" />
+      <workItem from="1688818971165" duration="13539000" />
+      <workItem from="1689258127121" duration="5040000" />
+      <workItem from="1689426742234" duration="13292000" />
+      <workItem from="1689499163284" duration="13389000" />
     </task>
     <task id="LOCAL-00001" summary="DZ">
       <created>1675195306632</created>
@@ -143,11 +217,86 @@
       <option name="project" value="LOCAL" />
       <updated>1676313847396</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DZ">
+      <created>1676379534823</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676379534823</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DZ">
+      <created>1676468637100</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676468637101</updated>
+    </task>
+    <task id="LOCAL-00011" summary="DZ">
+      <created>1676840476150</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676840476150</updated>
+    </task>
+    <task id="LOCAL-00012" summary="DZ">
+      <created>1676885683366</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676885683366</updated>
+    </task>
+    <task id="LOCAL-00013" summary="DZ">
+      <created>1676910649232</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676910649232</updated>
+    </task>
+    <task id="LOCAL-00014" summary="DZ">
+      <created>1676919195447</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676919195447</updated>
+    </task>
+    <task id="LOCAL-00015" summary="DZ">
+      <created>1677855792621</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677855792621</updated>
+    </task>
+    <task id="LOCAL-00016" summary="DZ">
+      <created>1677855977587</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677855977587</updated>
+    </task>
+    <task id="LOCAL-00017" summary="DZ">
+      <created>1677856107531</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677856107531</updated>
+    </task>
+    <task id="LOCAL-00018" summary="DZ">
+      <created>1678120344080</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678120344080</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test/TEST.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DZ" />
@@ -165,6 +314,21 @@
           <url>file://$PROJECT_DIR$/lesson4/main4.js</url>
           <line>82</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson 6/main6.js</url>
+          <line>50</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson 6/main6.js</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson 6/main6.js</url>
+          <line>105</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

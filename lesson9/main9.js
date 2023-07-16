@@ -147,17 +147,95 @@ for (let item of simpsons) {
     document.body.appendChild(div)
 }
 
-/*
-for (let item of coursesAndDurationArray) {
-    let div = document.createElement('div');
-    div.classList.add('item');
-    let h1 = document.createElement('h1');
-    h1.classList.add('heading');
-    h1.textContent = item.title;
-    let p = document.createElement('p');
-    p.classList.add('description');
-    p.textContent = item.monthDuration;
-    div.appendChild(h1);
-    div.appendChild(p);
-    document.body.appendChild(div);
-}*/
+{
+    let coursesArray = [
+        {
+            title: 'JavaScript Complex',
+            monthDuration: 5,
+            hourDuration: 909,
+            modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+        },
+        {
+            title: 'Java Complex',
+            monthDuration: 6,
+            hourDuration: 909,
+            modules: ['html',
+                'css',
+                'js',
+                'mysql',
+                'mongodb',
+                'angular',
+                'aws',
+                'docker',
+                'git',
+                'java core',
+                'java advanced']
+        },
+        {
+            title: 'Python Complex',
+            monthDuration: 6,
+            hourDuration: 909,
+            modules: ['html',
+                'css',
+                'js',
+                'mysql',
+                'mongodb',
+                'angular',
+                'aws',
+                'docker',
+                'python core',
+                'python advanced']
+        },
+        {
+            title: 'QA Complex',
+            monthDuration: 4,
+            hourDuration: 909,
+            modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+        },
+        {
+            title: 'FullStack',
+            monthDuration: 7,
+            hourDuration: 909,
+            modules: ['html',
+                'css',
+                'js',
+                'mysql',
+                'mongodb',
+                'react',
+                'angular',
+                'aws',
+                'docker',
+                'git',
+                'node.js',
+                'python',
+                'java']
+        },
+        {
+            title: 'Frontend',
+            monthDuration: 4,
+            hourDuration: 909,
+            modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+        }
+    ];
+    let divF = document.createElement("div");
+    divF.style.display = 'flex';
+    for (let item of coursesArray) {
+        console.log(item)
+        let div = document.createElement("div");
+        let h2 = document.createElement("h2");
+        let h4 = document.createElement("h4");
+        let ul = document.createElement("ul");
+        if (item.modules.length > 1) {
+            for (let itemElement of item.modules) {
+                let li = document.createElement("li");
+                li.innerText = `${itemElement}`;
+                ul.appendChild(li);
+
+            }
+        }
+        h2.innerText = `${item.title}`;
+        h4.innerHTML = `Months - <i>${item.monthDuration}</i> hours - ${item.hourDuration}`;
+        div.append(h2, h4, ul)
+        divF.appendChild(div)
+    }
+}
