@@ -1,0 +1,21 @@
+.father{
+    display: flex;
+}
+/*.sort1{
+    width: 100px;
+    height: 100px;
+    background: rebeccapurple;
+}
+.sort2{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+.sort3{
+    width: 100px;
+    height: 100px;
+    background: red;
+}*/
+.hidden{
+    display: none;
+}

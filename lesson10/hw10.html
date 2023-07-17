@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+<style>
+    .hidden{
+        display: none;
+    }
+    .box1{
+        width: 200px;
+        height: 150px;
+        background: yellow;
+    }
+    .box2{
+        width: 150px;
+        height: 200px;
+        background: blue;
+    }
+    .box3{
+        width: 250px;
+        height: 250px;
+        background: rebeccapurple;
+    }
+    .father{
+        display: flex;
+    }
+</style>
+<form>
+
+  <input name="word" value="" placeholder="input word" id="firstInput">
+  <button>CHECK</button>
+  <hr>
+</form>
+<form>
+    <input name="words" value="" placeholder="input words">
+    <button>CHECK</button>
+    <hr>
+</form>
+<form>
+    <button type="button" id="bt">MENU</button>
+    <div id="menu" class="hidden">
+        <div><a href="link.html">checkbox</a></div>
+        <div><a href="roundabout.html">roundabout</a></div>
+        <div><a href="link.html">checkbox3</a></div>
+        <div><a href="link.html">checkbox4</a></div>
+    </div>
+    <hr>
+
+</form>
+<form>
+    <button id="bt2">disappear</button>
+    <hr>
+
+</form>
+<!--<form>
+
+    <div class="father">
+        <div class="box1" id="1"></div>
+        <div class="box2" id="2"></div>
+        <div class="box3" id="3"></div>
+    </div>
+</form>-->
+
+
+<script src="main10.js"></script>
+</body>
+</html>

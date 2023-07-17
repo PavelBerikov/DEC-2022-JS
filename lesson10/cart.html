@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+    let cartJS = localStorage.getItem('cart');
+    let cartArr = JSON.parse(cartJS);
+    console.log(cartArr)
+    let reduce = cartArr.reduce((priveos, current) => {
+        if (current.title === 'milk' ){
+            priveos.milk.push(current)
+        }
+        if (current.title === 'juice' ){
+            priveos.juice.push(current)
+        }
+        if (current.title === 'tomato' ){
+            priveos.tomato.push(current)
+        }
+        if (current.title === 'tea' ){
+            priveos.tea.push(current)
+        }
+        return priveos
+    },{tea: [], juice: [], tomato: [], milk: []});
+    let divElement = document.createElement("div");
+    divElement.innerText = `Juice - ${reduce.juice.length}, Milk - ${reduce.milk.length}, Tea - ${reduce.tea.length}, Tomato - ${reduce.tomato.length}`;
+    document.body.appendChild(divElement)
+
+    /*for (const item of cartArr) {
+        let divElement = document.createElement("div");
+        divElement.innerText = `${item.title}`
+        document.body.appendChild(divElement)
+    }*/
+</script>
+
+</body>
+</html>

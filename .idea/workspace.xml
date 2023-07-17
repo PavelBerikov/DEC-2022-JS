@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b98ab0-4bbc-4b09-a57d-f959a82763e7" name="Changes" comment="DZ">
-      <change afterPath="$PROJECT_DIR$/lesson10/event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/forms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/ls.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/main10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/hw10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/roundabout.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/Relearn.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/Relearn.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/Shablon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/event.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/event.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/ls.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/ls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/main10.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson2/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/main2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/main9.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/main9.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TEST.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/maintest.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test1.html" beforeDir="false" />
@@ -27,10 +31,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -159,7 +163,8 @@
       <workItem from="1688818971165" duration="13539000" />
       <workItem from="1689258127121" duration="5040000" />
       <workItem from="1689426742234" duration="13292000" />
-      <workItem from="1689499163284" duration="13389000" />
+      <workItem from="1689499163284" duration="13736000" />
+      <workItem from="1689577435745" duration="27133000" />
     </task>
     <task id="LOCAL-00001" summary="DZ">
       <created>1675195306632</created>
@@ -287,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678120344080</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="DZ">
+      <created>1689530248719</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689530248719</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
