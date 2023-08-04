@@ -1,0 +1,8 @@
+.target{
+    display: flex;
+}
+.but{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 20px;
+}

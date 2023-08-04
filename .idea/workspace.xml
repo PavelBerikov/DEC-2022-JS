@@ -5,23 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b98ab0-4bbc-4b09-a57d-f959a82763e7" name="Changes" comment="DZ">
-      <change afterPath="$PROJECT_DIR$/lesson10/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/hw10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/roundabout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Relearn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Relearn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11/lesson11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11/main11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 12/lesson12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 12/main12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 12/posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/homework/HOMEWORK2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/homework/HOMEWORK2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/homework/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/homework/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/homework/sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/mini-project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/postDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/postDetails.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/Shablon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/event.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/event.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/ls.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/ls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/main10.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson2/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/main2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TEST.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/maintest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Relearn.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/Relearn.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +37,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -73,6 +78,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\DEC-2022-JS\lesson10\homework" />
+      <recent name="C:\Users\User\IdeaProjects\DEC-2022-JS\lesson10" />
       <recent name="C:\Users\User\IdeaProjects\DEC-2022-JS\lesson1" />
     </key>
   </component>
@@ -164,7 +171,19 @@
       <workItem from="1689258127121" duration="5040000" />
       <workItem from="1689426742234" duration="13292000" />
       <workItem from="1689499163284" duration="13736000" />
-      <workItem from="1689577435745" duration="27133000" />
+      <workItem from="1689577435745" duration="27248000" />
+      <workItem from="1689751912297" duration="2713000" />
+      <workItem from="1689925640339" duration="4457000" />
+      <workItem from="1689939396394" duration="6340000" />
+      <workItem from="1690108222399" duration="5939000" />
+      <workItem from="1690117884644" duration="4679000" />
+      <workItem from="1690180265110" duration="953000" />
+      <workItem from="1690182606300" duration="8351000" />
+      <workItem from="1690354661926" duration="11664000" />
+      <workItem from="1690613902169" duration="2673000" />
+      <workItem from="1690617331985" duration="6198000" />
+      <workItem from="1691178667601" duration="275000" />
+      <workItem from="1691179339255" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="DZ">
       <created>1675195306632</created>
@@ -299,16 +318,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689530248719</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="DZ">
+      <created>1689615765467</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1689615765467</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/test/TEST.js" />
-      </list>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DZ" />
